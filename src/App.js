@@ -3,7 +3,7 @@ import { Container, Grid } from '@material-ui/core';
 import Profile from './components/Profile/Profile'
 import Header from './components/Header/Header'
 import Portfolio from './pages/Portfolio/Portfolio'
-import Timeline from './components/Timeline/Timeline'
+import CustomTimeline from './components/Timeline/CustomTimeline'
 import Footer from './components/Footer/Footer'
 import Resume from './pages/Resume/Resume'
 
@@ -21,7 +21,7 @@ function App() {
             <Header/>
             <Portfolio />
             <Resume/>
-            <Timeline/>
+            <CustomTimeline/>
             <Footer/>
           </Grid>
         </Grid>
